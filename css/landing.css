@@ -217,11 +217,34 @@ ul {
 
 .hot-drinks__price {
     color:#5BACC3;
+    margin-left: 100px;
+    font-weight: bold;
+    font-size: 2rem;
 }
 
 .hot-drinks__image {
    display: flex;
    flex-wrap: wrap;
+}
+
+.hot-drinks__description {
+    margin-top: 0px;
+}
+
+.hot-drinks__content-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFF0ED;
+}
+
+
+.hot-drinks__text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
 }
 
 img.hot-drinks__image {
@@ -236,3 +259,4 @@ img.hot-drinks__image {
     justify-content: space-around;
     padding: 50px 200px;
 }
+
