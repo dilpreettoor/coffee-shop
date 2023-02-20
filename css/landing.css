@@ -1,9 +1,112 @@
+.header {
+    display: flex;
+    background-color:#FFF0ED;
+    flex-direction: row;
+    justify-content: space-between;  
+    align-items: center;  
+    text-align: center;
+    height: 70px;
+    width: 100%;
+  }
+  
+  .hero-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:3em 12.5em;
+  }
+
+  .hero-banner__content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    text-align: start;
+  }
+
+  .hero-banner__paragraph {
+    width: 350px;
+  }
+
+  .hero-banner__image {
+    width: 280px;
+  }
+
+  .hero-banner__shop-btn {
+    width: 180px;
+    padding: 10px;
+  }
+
+  .products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .products__view-btn {
+    margin: 50px 0;
+    width: 180px;
+    padding: 10px;
+  }
+
+  .header__content-container {
+      display: flex;
+    background-color:#FFF0ED;
+    flex-direction: row;
+    justify-content: space-between;  
+    align-items: center;  
+    text-align: center;
+    height: 100%; 
+    width: 25%
+  }
+  
+  .nav-header-links {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      text-align: center;
+  }
+  .header__nav-heading {
+      text-align: left;
+      padding-bottom: 0.6rem;
+  }
+  .header__coffee-icon {
+      width: 3.125em;
+      padding-bottom: 0.8rem;
+  }
+  
+  .header__icon-logo {
+      display: flex;
+      flex-direction: row;
+  }
+  
+  .header__link {
+      text-decoration: none;
+  }
+
+  .remove-decor {
+    text-decoration: none;
+}
+
+.primary-color {
+    color: #393939;
+}
+
+.secondary-color {
+    color: #FFF;
+}
+
+.highlight-color {
+    color: #5BACC3;
+}
+
+
 .icons {
     width: 50px;
 }
 
 .products {
-    width: 280px;
+    
 }
 
 button {
@@ -37,16 +140,23 @@ h3, .nav-heading, .footer-heading {
     font-weight: 400;
 }
 
-.discount-text {
+p.discount-banner__discount-text {
     font-size: 2.25rem;
     font-weight: 400;
+    margin-top: 0px;
+    background-color: #393939;
+    padding: 20px 50px;
 }
 
-.discount-banner {
+.products__discount-banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
     width: 100%;
-    background-color: #393939;
     color: white;
     text-align: center;
+    height: 300px;
     white-space: nowrap;
 }
 
@@ -79,6 +189,50 @@ ul {
     background-color: #FFF0ED;
 }
 
-.price {
+.light-gray {
+    background-color: #F7f7f7;
+}
+
+.hot-drinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 100px;
+    
+}
+.hot-drinks__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFF;
+    align-items: center;
+    width: 330px;
+    height: 440px;
+    padding: 20px;
+    margin: 0 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+    
+}
+
+.hot-drinks__price {
     color:#5BACC3;
+}
+
+.hot-drinks__image {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+img.hot-drinks__image {
+  width: 50%; 
+  height: auto;
+  max-height: 280px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px 200px;
 }

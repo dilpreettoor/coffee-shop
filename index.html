@@ -9,75 +9,75 @@
     <title>Coffee Shop - Home</title>
 </head>
 <body>
-    <header>
-        <nav class="nitro-pink">
-          <img class="icons" src="/assets/coffee-beans-logo-and-footer.svg" alt="coffee bean logo">
-          <h3>nitro</h3>
-          
-            <ul>
-                <li><a href="#about">ABOUT</a></li>
-            </ul>
-            <ul>
-                <li><a href="#menu">MENU</a></li>
-            </ul>
-            <ul>
-                <li><a href="#menu">SHOP NOW</a></li>
-            </ul>
+    <header class="header">
+        <div class="header__content-container" >
+            <div class="header__icon-logo">
+        <img class="header__coffee-icon" src="../assets/coffee-beans-logo-and-footer.svg" alt="coffee bean logo"/>
         
-        </nav>
-        <div class="nitro-pink">
-        <h1>Nitro Coffee</h1>
-        <p class="regular-text">Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species.</p>
-        <button>SHOP NOW</button>
-        <img class="products" src="/assets/coffeebeans.png" alt="coffee bag">
+        <h3 class="header__nav-heading .remove-decor" href="#nitro">nitro</h3>
+            </div>
+        
+            <a class="header__link primary-color" href="#about">ABOUT</a>
+            <a class="header__link primary-color" href="#menu">MENU</a>
+            <a class="header__link highlight-color" href="#menu">SHOP NOW</a>
+    
         </div>
     </header>
-    <main>
-        <section>
-            <!-- Hot Drinks -->
-        <h2>Our Products</h2>
-        <div>
-            <img  src="/assets/coffeebeans.png" alt="Coffee Beans">
-            <h3>Coffee Beans</h3>
-            <h3 class="price">$18.99</h3>
+    <div class="hero-banner nitro-pink">
+        <div class="hero-banner__content-container">
+        <h1 class="hero-banner__heading">Nitro Coffee</h1>
+        <p class="hero-banner__paragraph regular-text">Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species.</p>
+        <button class="hero-banner__shop-btn">SHOP NOW</button>
+        </div>
+        <img class="hero-banner__image" src="/assets/coffeebeans.png" alt="coffee bag">
+    </div>
+    <main class="products light-gray">
+        <h2 class="products__title">Our Products</h2>
+        <!-- Hot Drinks -->
+        <section class="hot-drinks" >
+        <div  class="hot-drinks__item" >
+            <img class="hot-drinks__image"  src="/assets/coffeebeans.png" alt="Coffee Beans">
+            <h3 class="hot-drinks__name">Coffee Beans</h3>
+            <h3 class="hot-drinks__price">$18.99</h3>  
+        </div>
+        <div class="hot-drinks__item">
+            <img  class="hot-drinks__image" src="/assets/coldbrew.png" alt="Cold Brew">
+            <h3 class="hot-drinks__name">Cold Brew</h3>
+            <h3 class="hot-drinks__price">$4.99</h3>
             
             
         </div>
-        <div>
-            <img  src="/assets/coldbrew.png" alt="Cold Brew">
-            <h3>Cold Brew</h3>
-            <h3 class="price">$4.99</h3>
+        <div class="hot-drinks__item">
+            <img class="hot-drinks__image" src="/assets/inhousebrew.png" alt="In-house Brew">
+            <h3 class="hot-drinks__name">In-house Brew</h3>
+            <h3 class="hot-drinks__price">$2.99</h3>
             
             
         </div>
-        <div>
-            <img  src="/assets/inhousebrew.png" alt="In-house Brew">
-            <h3>In-house Brew</h3>
-            <h3 class="price">$2.99</h3>
-            
-            
-        </div>
-        <button>VIEW ALL </button>
-        </section>
         
-        <section class="discount-banner">
-            <p class="discount-text">Get 20% off your first order with code: FirstNitro</p>
         </section>
+        <button class="products__view-btn">VIEW ALL </button>
+        
     </main>
-    <footer class="nitro-pink">
-        <div>
-            <h3>Address</h3>
+
+    <section class="products__discount-banner">
+        <p class="discount-banner__discount-text">Get 20% off your first order with code: FirstNitro</p>
+    </section>
+    
+    <footer class="footer nitro-pink">
+        <div class="footer__address">
+            <h3 class="address__title">Address</h3>
             <p>503 Broadway Penthouse</p>
             <p>New York</p>
           </div>
           
-          <div>
+          <div class="footer__business-hours"> 
             <h3>Hours</h3>
             <p><b>Monday - Friday:</b> 9am - 7pm</p>
             <p><b>Saturday - Sunday:</b> 10am - 5pm</p>
           </div>
           
-          <div>
+          <div class="footer__social">
             <h3>Social</h3>
             <img class="icons" src="/assets/Facebook-Icon.svg" alt="facebook">
             <img class="icons" src="/assets/Yelp-Icon.svg" alt="yelp">
